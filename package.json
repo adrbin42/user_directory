@@ -1,0 +1,24 @@
+{
+  "name": "user_dir",
+  "version": "1.0.0",
+  "description": "Assessment to create a user directory",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrbin42/user_directory.git"
+  },
+  "author": "Adrienne Bing",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adrbin42/user_directory/issues"
+  },
+  "homepage": "https://github.com/adrbin42/user_directory#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "mustache": "^2.3.0",
+    "mustache-express": "^1.2.4"
+  }
+}
