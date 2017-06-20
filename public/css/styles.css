@@ -1,3 +1,8 @@
-body {
-  background-color: blue;
+.users {
+display: flex;
+flex-flow: row wrap;
+}
+
+.box{
+  border: 1px solid black;
 }
