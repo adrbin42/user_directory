@@ -1,0 +1,35 @@
+.profiles {
+display: flex;
+flex-flow: row wrap;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  border: .25px solid 	#DCDCDC;
+  margin: 2vw;
+  width: 15vw;
+  border-radius: .25em;
+  align-items: center;
+}
+
+div.box {
+  position: relative;
+}
+
+.nojob {
+  color: red;
+  font-weight: bold;
+}
+
+div.container4 {
+    height: 10em;
+    position: relative }
+div.container4 p {
+    margin: 0;
+    background: yellow;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
